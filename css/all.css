@@ -15,9 +15,7 @@ body {
     margin: 0;
     color: #373737;
     min-width: 320px;
-    font-size: 16px;
-    line-height: 1.125;
-    font-family: "Work Sans", sans-serif;
+    font: 16px/1.125 "Work Sans", sans-serif;
     -webkit-text-size-adjust: 100%;
 }
 
