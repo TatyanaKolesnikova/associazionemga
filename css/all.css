@@ -15,7 +15,9 @@ body {
     margin: 0;
     color: #373737;
     min-width: 320px;
-    font: 16px/1.125 "Work Sans", sans-serif;
+    font-size: 16px;
+    line-height: 1.125;
+    font-family: "Work Sans", sans-serif;
     -webkit-text-size-adjust: 100%;
 }
 
@@ -927,16 +929,6 @@ input::-webkit-input-placeholder {
     padding: 0 0 10px;
 }
 
-.section-company__info:before {
-    content: '';
-    width: 184px;
-    height: 6px;
-    background-color: #2fad66;
-    position: absolute;
-    bottom: 0;
-    right: 0;
-}
-
 .section-company__image img {
     display: block;
     width: 100%;
@@ -1005,11 +997,6 @@ input::-webkit-input-placeholder {
     .section-company__info {
         width: 56%;
         padding: 0 70px 28px 0;
-    }
-
-    .section-company__info:before {
-        bottom: 0;
-        right: 70px;
     }
 
     .section-company__image {
@@ -1894,7 +1881,7 @@ input::-webkit-input-placeholder {
     }
 
     .section-hero {
-        padding: 159px 0 145px;
+        padding: 159px 0 90px;
     }
 
     .section-hero__info,
