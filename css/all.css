@@ -1842,7 +1842,7 @@ input::-webkit-input-placeholder {
 .section-hero {
     position: relative;
     background-color: #F3F9F8;
-    padding: 130px 0 70px;
+    padding: 130px 0 0;
 }
 
 .section-hero .container {
@@ -1881,7 +1881,7 @@ input::-webkit-input-placeholder {
     }
 
     .section-hero {
-        padding: 159px 0 90px;
+        padding: 159px 0 0;
     }
 
     .section-hero__info,
